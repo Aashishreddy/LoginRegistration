@@ -42,6 +42,13 @@ class UsersRepositoryTests {
         repo.save(user1);
     }
 
+   @Test
+   public void testFindbyEmail(){
+        String email ="aashishreds@gmail.com";
+        User user = repo.findByEmail(email);
+        assertThat(user).isNotNull();
+   }
+
 
 }
 

@@ -1,7 +1,4 @@
 package com.example.loginregistration;
-
-
-
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.*;
