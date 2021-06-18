@@ -33,7 +33,7 @@ public class AppController {
         return "register_success";
     }
 
-    @GetMapping("/loginform")
+    @GetMapping("/loginForm")
     public String loginForm(Model model){
         model.addAttribute("user", new User());
         return "loginForm";
